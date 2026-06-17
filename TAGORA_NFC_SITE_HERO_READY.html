@@ -339,43 +339,10 @@
 
             </div>
 
-            <!-- Bloc visuel d'image interactif lié à YouCan -->
-            <div class="lg:col-span-6 relative flex justify-center items-center">
-                <div class="absolute inset-x-8 inset-y-8 bg-brand-cyan/15 rounded-3xl blur-2xl z-0"></div>
-
-                    <!-- Badge dynamique interactif -->
-                    <div class="absolute top-4 right-4 bg-black/90 border border-brand-cyan/50 px-3 py-1.5 rounded-full text-[10px] text-brand-cyan font-bold uppercase tracking-wider opacity-100 sm:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-1.5 shadow-lg z-20">
-                        <span>Boutique En Ligne / المتجر</span>
-                        <span class="animate-ping w-2 h-2 rounded-full bg-brand-cyan shrink-0"></span>
-                    </div>
-
-                    <div class="absolute inset-0 bg-gradient-to-t from-neutral-950/90 via-transparent to-transparent pointer-events-none"></div>
-                    <div class="absolute bottom-4 left-4 right-4 bg-zinc-950/85 backdrop-blur-md border border-brand-cyan/20 px-4 py-3 rounded-2xl flex items-center justify-between">
-                        <div>
-                          <h4 class="font-orbitron font-extrabold text-xs text-brand-cyan uppercase tracking-wider">TAP TO CONNECT</h4>
-                          <p class="text-[10px] text-zinc-300 mt-0.5 font-medium">Boutique Officielle / الموقع الرسمي</p>
-                        </div>
-                        <span class="text-[10px] uppercase font-bold bg-brand-cyan/10 border border-brand-cyan/20 px-2.5 py-1 text-brand-cyan rounded-full transition-colors group-hover:bg-brand-cyan group-hover:text-black">
-                          tagoranfc.youcan.store
-                        </span>
-                    </div>
-                </a>
-
-                <div class="absolute -bottom-4 right-4 z-20 bg-zinc-950 border border-emerald-500/40 rounded-2xl p-3 shadow-2xl flex items-center gap-3 animate-bounce" style="animation-duration: 2.5s;">
-                    <div class="w-8 h-8 rounded-full bg-emerald-500/20 flex items-center justify-center text-emerald-400 font-bold">✓</div>
-                    <div>
-                        <span class="block text-[9px] text-zinc-400 uppercase font-mono">Puces NFC Premium</span>
-                        <span class="text-[11px] font-bold text-white">Prêt à l'emploi</span>
-                    </div>
-                </div>
             </div>
 
         </div>
-    </section>
-            <!-- Rendu Visuel : Maquette de Smartphone et Sticker -->
-            <div class="lg:col-span-7 flex flex-col sm:flex-row items-center justify-center gap-6 relative p-6 bg-zinc-950/40 rounded-3xl border border-zinc-900 overflow-hidden min-h-[420px]">
-                
-                <div class="absolute inset-x-0 top-0 h-44 bg-gradient-to-b from-brand-cyan/5 to-transparent pointer-events-none"></div>
+    </section
                         
                         <!-- Étape de chargement de puce NFC -->
                         <div id="screen-state-loading" class="hidden absolute inset-0 flex flex-col items-center justify-center bg-black text-center px-4">
